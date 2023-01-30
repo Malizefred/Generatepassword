@@ -27,3 +27,11 @@ function generateRandom(){
     let random=Math.floor(Math.random()*password.length)
     return random
 }
+let copyBtn=document.querySelector('#copy');
+copyBtn.addEventListener('click',copy);
+function copy(){
+    const generatedpassword=document.querySelector('#password').value;
+    navigator.clipboard.writeText(`${generatedpassword}`);
+}
+
+
