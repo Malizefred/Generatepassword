@@ -17,9 +17,10 @@
     font-weight: 400;
     font-size: 30px;
 }
-.password-btn{
+#password-btn{
     width: 70px;
     height: 30px;
+    padding: 5px;
     border: none;
     border-radius: 8px;
     background-color: black;
@@ -29,7 +30,7 @@
     text-align: center;
 
 }
-.password{
+#password{
     width: 70px;
     height: 30px;
     border: none;
