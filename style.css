@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-image: linear-gradient(45deg,rgb(244, 180, 190),rgb(129, 8, 129));
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+}
