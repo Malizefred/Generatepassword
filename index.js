@@ -18,7 +18,7 @@ function generatePassword(e){
         randomIndex+=password[generateRandom()]
         password4.value=randomIndex;
         }
-        
+      
  e.preventDefault()
 }
 //generate random numbers
@@ -32,6 +32,12 @@ copyBtn.addEventListener('click',copy);
 function copy(){
     const generatedpassword=document.querySelector('#password').value;
     navigator.clipboard.writeText(`${generatedpassword}`);
+    setTimeout(message("you have successfully copied"),1000)
+
 }
 
-
+function message(msg){
+    const mess=document.createElement('div');
+    mess.classname='message';
+    msg.classList.add('message');
+}

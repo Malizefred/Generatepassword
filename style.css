@@ -10,7 +10,7 @@ body{
 .container{
     background-image: linear-gradient(45deg,rgb(244, 180, 190),rgb(129, 8, 129));
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     border-radius: 12px;
     text-align: center;
@@ -61,4 +61,11 @@ body{
 	cursor: pointer;
 	transition: all 0.3s ease;
 	border: 2px solid #2bb673;
+}
+.message{
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    background-color: #2bb673;
+    color: white;
 }
